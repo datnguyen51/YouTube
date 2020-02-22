@@ -1,12 +1,49 @@
+.bar {
+	height: 1138px;
+	overflow: auto;
+
+}
 .thu-muc {
 	width: 240px;
+	font: Arial, arial-serif;
 	font-size: 16px;
 	background-color: #FFF;
 	border-bottom: 1px solid #D6D6D6FF;
+	color: #4F4F4F;
 }
 
 .item {
+	display: flex; 
 	height: 40px;
-	/*text-align: center;*/
 	padding: 0px 24px;
+}
+
+.icon {
+	margin-right: 24px;
+	padding-top: 10px;
+}
+
+.content {
+	padding-top: 10px;
+}
+
+.item:hover {
+	background: #E0E0E0;
+}
+
+.item:hover .icon{
+	color: #FF4747FF;
+}
+
+.item:hover .content{
+	color: #000;
+}
+
+.kenh-dang-ky {
+	color: #4F4F4F;
+
+}
+
+.title {
+	margin-left: 24px;
 }
