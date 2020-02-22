@@ -1,0 +1,12 @@
+.thu-muc {
+	width: 240px;
+	font-size: 16px;
+	background-color: #FFF;
+	border-bottom: 1px solid #D6D6D6FF;
+}
+
+.item {
+	height: 40px;
+	/*text-align: center;*/
+	padding: 0px 24px;
+}
